@@ -80,6 +80,10 @@ var ThreadStore = assign({}, EventEmitter.prototype, {
   getCurrentID() {
     return _currentID;
   },
+
+  getCurrent() {
+    return this.get(this.getCurrentID());
+  },
 });
 
 ThreadStore.dispatchToken = ChatAppDispatcher.register((action) => {

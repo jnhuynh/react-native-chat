@@ -14,21 +14,21 @@ module.exports = StyleSheet.create({
   },
 
   name: {
-    fontFamily: "HelveticaNeue-Medium",
+    fontFamily: 'HelveticaNeue-Medium',
     fontSize: 18,
     color: '#262626',
     marginBottom: 5,
   },
 
   dateTime: {
-    fontFamily: "HelveticaNeue-Light",
+    fontFamily: 'HelveticaNeue-Light',
     fontSize: 12,
     color: '#AAAAAA',
     marginBottom: 5,
   },
 
   message: {
-    fontFamily: "HelveticaNeue",
+    fontFamily: 'HelveticaNeue',
     fontSize: 16,
     color: '#262626',
     marginBottom: 5,

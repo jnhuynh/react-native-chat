@@ -7,10 +7,9 @@ var {
 
 module.exports = StyleSheet.create({
   container: {
-    backgroundColor: '#262626',
+    backgroundColor: '#FEFEFE',
     borderRadius: 5,
-    padding: 5,
-    flexDirection: 'column',
-    alignItems: 'stretch',
+    padding: 10,
+    margin: 5,
   },
 });
