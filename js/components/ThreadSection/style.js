@@ -7,7 +7,8 @@ var {
 
 module.exports = StyleSheet.create({
   container: {
-    alignItems: 'center',
-    paddingTop: 50,
+    backgroundColor: '#262626',
+    borderRadius: 5,
+    padding: 5,
   },
 });

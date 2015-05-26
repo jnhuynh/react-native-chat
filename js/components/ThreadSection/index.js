@@ -9,6 +9,8 @@ var {
 var ThreadStore = require('../../stores/ThreadStore');
 var ThreadListItem = require('../ThreadListItem');
 
+var styles = require('./style');
+
 function getStateFromStores() {
   return {
     threads: ThreadStore.getAllChrono(),
@@ -45,7 +47,7 @@ module.exports = class ThreadSection extends Component {
     });
 
     return (
-      <View>
+      <View style={styles.container}>
         {threadListItems}
       </View>
     );
