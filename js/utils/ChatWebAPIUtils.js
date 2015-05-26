@@ -16,7 +16,7 @@ module.exports = {
 
   getAllMessages() {
     return this._getMessages().then((messages) => {
-      ChatServerActionCreators.receiveAll(Messages);
+      ChatServerActionCreators.receiveAll(messages);
     });
   },
 

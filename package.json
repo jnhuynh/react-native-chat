@@ -6,6 +6,7 @@
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
+    "events": "^1.0.2",
     "flux": "^2.0.3",
     "immutable": "^3.7.3",
     "keymirror": "^0.1.1",
